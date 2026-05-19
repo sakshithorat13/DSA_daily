@@ -1,4 +1,5 @@
-class Solution {
+import  java.util.*;
+class DecodeString {
     public String decodeString(String s) {
         Stack<String> strst = new Stack<>();
         Stack<Integer> numst = new Stack<>();
